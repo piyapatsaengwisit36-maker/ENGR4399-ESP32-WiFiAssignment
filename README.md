@@ -43,7 +43,7 @@ http://api.open-meteo.com/v1/forecast?latitude=29.4241&longitude=-98.4936&curren
 ArduinoJson parses `current.temperature_2m`, `current.relative_humidity_2m`, and `current.time`. The firmware checks HTTP status, JSON validity, field types, and missing timestamps. WiFi connection and HTTP request timeouts prevent indefinite blocking. HTTP is an educational simplification; a physical deployment should use HTTPS with trusted certificate validation.
 
 ## Run in Wokwi
-1. Create an ESP32 Arduino project at https://wokwi.com/projects/new/esp32.
+1. Create an ESP32 Arduino project at [https://wokwi.com/projects/new/esp32.](https://wokwi.com/projects/477092549740262401)
 2. Replace `sketch.ino` and `diagram.json` with these files; add `libraries.txt` with the supplied dependencies.
 3. Press Play. Observe WiFi, HTTP status, raw JSON, and parsed weather in Serial Monitor.
 4. Check the OLED, then press Refresh after at least 10 seconds.
