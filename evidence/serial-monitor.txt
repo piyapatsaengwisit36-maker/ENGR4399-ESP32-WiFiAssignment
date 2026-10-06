@@ -1,0 +1,13 @@
+Connecting WiFi...
+WiFi connected. IP: 10.10.0.2
+Requesting weather...
+HTTP status: 200
+JSON response:
+{"latitude":29.41103,"longitude":-98.485,"generationtime_ms":0.04112720489501953,"utc_offset_seconds":-18000,"timezone":"America/Chicago","timezone_abbreviation":"GMT-5","elevation":203.0,"current_units":{"time":"iso8601","interval":"seconds","temperature_2m":"°F","relative_humidity_2m":"%"},"current":{"time":"2026-10-05T19:15","interval":900,"temperature_2m":83.2,"relative_humidity_2m":53}}
+Temperature: 83.2 F | Humidity: 53 % | Time: 2026-10-05T19:15
+Refresh limited: wait 10 seconds between requests.
+
+Manual refresh at approximately 12.6 simulated seconds:
+Requesting weather...
+HTTP status: 200
+Temperature: 83.2 F | Humidity: 53 % | Time: 2026-10-05T19:15
